@@ -1,0 +1,74 @@
+body{
+	margin: 0;
+}
+
+.navbar{
+	background-color: teal;
+	padding: 1px;
+}
+
+.navbar li{
+	display: inline;
+	margin-right: 5px;
+	color: white;
+	border: 1px white solid;
+	padding: 5px;
+}
+
+.navbar li:hover{
+	background-color: rgb(25, 75, 75);
+	border: 1px rgb(25, 75, 75) solid;
+}
+
+.hero{
+	background-color: rgb(245, 166, 20);
+	text-align: center;
+	color: white;
+	padding: 40px;
+}
+
+.about p, h3{
+	text-align: center;
+	margin: 0px 40px;
+}
+
+.cta{
+	background-image: url("bbg2.jpg");
+	padding: 40px;
+	color: white;
+	font-size: 20px;
+}
+
+.cta-btn{
+	padding: 10px;
+	color: white;
+	border: 1px green solid;
+	background-color: green;
+	border-radius: 10px;
+	float: right;
+}
+
+.cta-btn:hover{
+	background-color: #fff;
+	color: green;
+} 
+
+.contact{
+	background-color: grey;
+	padding: 40px;
+}
+
+.card{
+	background-color: #fff;
+	padding: 20px;
+	width: 30%;
+}
+
+input, label, textarea {
+	display: block;
+	width: 100%;
+}
+
+input{
+	margin-bottom: 10px; 
+}
